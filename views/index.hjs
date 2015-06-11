@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <head lang="en">
+    <title>{{ title }}</title>
+    <!-- meta tags -->
+    <meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name ="description" content="">
+    <meta name ="keywords" content ="">
+    <meta charset="UTF-8">
+    <!-- links -->
+    <link rel='stylesheet' href='/stylesheets/app.css'>
+    <link rel="icon" type="image/png" href="/images/fav.png">
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700,400italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Reenie+Beanie|Great+Vibes|Pacifico|Orbitron' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+    <header class="header">
+      <h1>UI/UX WEB DEVELOPER</h1>
+      <a class="online-portfolio-icon" href="http://santosemmanuel.com/index.html" title="Online Portfolio" target="_blank">
+        <img class="contact-icon port-img" src="images/icons/port.png" alt="Social icon images">
+      </a>
+    </header>
+    <main class="clearfix">
+      <section class="main-info">
+        <h1 class="title">EMMANUEL SANTOS</h1>
+        <h2>Bellevue, WA</h2>
+        <p>(787) 365 – 5550</p>
+        <p>emmanuelsantos.dq@gmail.com</p>
+      </section>
+      <section class="bio-box">
+        <p>
+          Hi, I am a web developer with a background in
+          music production. I am highly motivated, curious,
+          and easy to work with. I love designing and creating
+          beautiful websites and writing good, clean code. <span class="orange toggle-box">View Online Portfolio.</span>
+        </p>
+      </section>
+      <section class="skills-section">
+        <h1 class="title">SKILLS</h1>
+        <ul>
+          <li class="skill-1">HTML</li>
+          <li class="skill-2">CSS</li>
+          <li class="skill-3">LINUX</li>
+          <li class="skill-4">SASS</li>
+          <li class="skill-5">GIT</li>
+          <li class="skill-6">NODE.JS</li>
+          <li class="skill-7">JQUERY</li>
+          <li class="skill-8">PHOTOSHOP</li>
+          <li class="skill-9">RESPONSIVE DESIGN</li>
+        </ul>
+      </section>
+      <section class="projects-section">
+        <h1 class="title">PROJECTS</h1>
+        <div class="muder-box">
+          <h2>Muder Music</h2>
+          <h3>Seattle, WA - 2015</h3>
+          <p>
+            <span class="orange">&rarr;</span> Designed a webpage utilizing Node.js and Angular.js in order to create a place for
+            users to easily share music.
+          </p>
+          <p>
+            <span class="orange">&rarr;</span> Maintained a solid HTML5 structure and used CSS3, as well as utilizing media queries to provide responsive design.
+          </p>
+          <p>
+            <span class="orange">&rarr;</span> Implemented a library named Animate.css for cool animations.
+          </p>
+          <a href="http://muder-music.herokuapp.com/?" title="View online" target="_blank">
+            <img class="web-icon" src="images/icons/web.svg" alt="View online image">
+          </a>
+        </div>
+        <div class="styleguide-box">
+          <h2>Living Style Guide</h2>
+          <h3>Seattle, WA - 2015</h3>
+          <p>
+            <span class="orange">&rarr;</span> This project required building a living style guide for an existing website, using their existing module and element styles.
+          </p>
+          <p>
+            <span class="orange">&rarr;</span> This will help UI developers at the website's offices to use for reference when building out more pages in the future.
+          </p>
+          <p>
+            <span class="orange">&rarr;</span> Technologies used: Node.js, Express, Sass, Jade.
+          </p>
+          <a href="https://steinberg-styleguide.herokuapp.com/?" title="View online" target="_blank">
+            <img class="web-icon" src="images/icons/web.svg" alt="View online image">
+          </a>
+        </div>
+      </section>
+      <section class="experience-section">
+        <h1 class="title">EXPERIENCE</h1>
+        <h2>STEVENS ASSOCIATES L.L.D</h2>
+        <p>New York, NY - 2011/2012</p>
+        <p>
+          <span class="orange">&rarr;</span> Responsible for overall operation of the Elliot Place Building 114-116 management.
+        </p>
+      </section>
+      <section class="education-section">
+        <h1 class="title">EDUCATION</h1>
+        <h2>CODE FELLOWS</h2>
+        <p>Seattle, WA - 2014</p>
+        <p>
+          <span class="orange">&rarr;</span> Computer Science and Web Development.
+        </p>
+        <h2>CODE FELLOWS</h2>
+        <p>Seattle, WA - 2015</p>
+        <p>
+          <span class="orange">&rarr;</span> Web UI/UX Development Accelerator.
+        </p>
+      </section>
+    </main>
+    <div class="show-contact-icon">
+      <img src="http://www.kreattivamente.com/img/contact-me/contact_me.png" alt="Contact image">
+    </div>
+    <nav role="navigation">
+      <ul class="nav-list">
+        <li>
+          <a href="https://linkedin.com/in/santosemmanuel" title="Linked-in" target="_blank">
+            <img class="contact-icon" src="images/icons/in.svg" alt="Social icon images">
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/DonQuality" title="Github" target="_blank">
+            <img class="contact-icon" src="images/icons/gh.svg" alt="Social icon images">
+          </a>
+        </li>
+        <li>
+          <a href="https://twitter.com/QualityWebz" title="Twitter" target="_blank">
+            <img class="contact-icon" src="images/icons/twit.svg" alt="Social icon images">
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <script src="http://localhost:35729/livereload.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/velocity.min.js"></script>
+    <script src="js/velocity.ui.min.js"></script>
+    <script src="/js/main.js"></script>
+  </body>
+</html>

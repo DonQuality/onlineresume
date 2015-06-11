@@ -1,0 +1,17 @@
+@import "typography/manifest";
+
+.diff-color{
+  @include fonty(null, null, 100);
+  color: #fff;
+  -webkit-animation-delay: 1s;
+  -vendor-animation-delay: 1s;
+}
+
+.orange{
+  color: orange;
+}
+
+.title{
+  @include fonty(3em, #777, 400);
+  font-family: 'Reenie Beanie', cursive;
+}

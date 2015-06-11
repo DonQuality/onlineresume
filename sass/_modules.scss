@@ -1,0 +1,253 @@
+@import "typography/manifest";
+
+// @include edit();
+
+header{
+  @include col(4/4);
+  background: #6CA2FF + 20;
+  padding: 1em;
+  text-align: center;
+  z-index: 1000;
+  transition: margin-top .5s ease;
+  display: none;
+  h1{
+    letter-spacing: .5em;
+    font-family: 'Reenie Beanie', cursive;
+    color: #fff;
+    @media (max-width: 1100px){
+      font-size: 3em;
+    }
+    @media (max-width: 500px){
+      font-size: 2.5em;
+    }
+  }
+}
+
+.online-portfolio-icon{
+  img{
+    width: 10%;
+    @media (max-width: 1100px){
+      width: 20%;
+    }
+  }
+}
+
+main{
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  background: rgb(247, 247, 247);
+  overflow: hidden;
+  padding: 1em;
+  // box-shadow: 0 2em 10em #6CA2FF + 20;
+  @media (max-width: 1100px){
+    width: 90%;
+  }
+}
+
+hr{
+  margin: 5em 0;
+  border: 1px solid #6CA2FF + 10;
+}
+
+[role="navigation"]{
+  position: fixed;
+  right: 0; bottom: 0;
+  width: 20%;
+  background: rgba(108, 162, 255, 0.71);
+  display: none;
+  opacity: 0;
+  z-index: 5;
+  @media (max-width: 1100px){
+    width: 30%;
+  }
+  @media (max-width: 500px){
+    width: 40%;
+  }
+}
+
+.nav-list{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  li{
+    margin: .8em;
+  }
+  img{
+    width: 80%;
+  }
+  .port-img{
+    width: 100%;
+  }
+}
+
+.show-contact-icon{
+  position: fixed;
+  right: 0; bottom: 0;
+  width: 10%;
+  @media (max-width: 1100px){
+    width: 20%;
+    margin-right: -4em;
+  }
+  @media (max-width: 500px){
+    width: 20%;
+    margin-right: 0;
+  }
+  img{
+    width: 60%;
+      @media (max-width: 500px){
+      width: 80%;
+    }
+  }
+}
+
+.main-info{
+  @include span(1/2);
+  padding: 1em;
+  @media (max-width: 1100px){
+    @include stack();
+    padding: 0;
+  }
+  h2{
+    @include fonty(2.5em, #6CA2FF + 20, 100);
+  }
+  p{
+    @include fonty(2em, #6CA2FF + 20, 100);
+    line-height: 1.2em;
+  }
+}
+
+.bio-box{
+  @include span(1/2, $cycle: 2);
+  padding: 2em;
+  @media (max-width: 1100px){
+    @include stack();
+  }
+  p{
+    @include fonty(2em, grey + 20, 100);
+    line-height: 1.2em;
+  }
+}
+
+.skills-section{
+  @include col(4/4);
+  clear: both;
+  margin-top: 2em;
+  padding: 1em;
+  h1{
+    margin-bottom: .4em;
+  }
+  li{
+    @include fonty(2em, #FFF + 20, 400);
+    line-height: 1.3em;
+    margin-left: 1em;
+    background: #6CA2FF;
+    margin: .4em .5em .4em .5em;
+    padding: .1em;
+  }
+}
+
+.projects-section{
+  @include col(4/4);
+  margin-top: 2em;
+  padding: 1em;
+  h2{
+    @include fonty(2.5em, #6CA2FF + 30, 400);
+  }
+  h3{
+    @include fonty(2.2em, #6CA2FF + 20, 400);
+  }
+  p{
+    @include fonty(2em, grey + 20, 100);
+    line-height: 1.2em;
+  }
+  img{
+    width: 6%;
+    margin-top: 1em;
+  }
+}
+
+.muder-box{
+  @include span(1/2);
+  padding: 1em;
+  @media (max-width: 1100px){
+    @include stack();
+  }
+}
+
+.styleguide-box{
+  @include span(1/2);
+  padding: 1em;
+  @media (max-width: 1100px){
+    @include stack();
+  }
+}
+
+.experience-section{
+  @include col(4/4);
+  margin-top: 2em;
+  padding: 1em;
+  h2{
+    @include fonty(2.5em, #6CA2FF + 30, 400);
+  }
+  p{
+    @include fonty(2em, grey + 20, 100);
+    line-height: 1.2em;
+  }
+}
+
+.education-section{
+  @include col(4/4);
+  margin-top: 2em;
+  padding: 1em;
+  h2{
+    @include fonty(2.5em, #6CA2FF + 30, 400);
+  }
+  p{
+    @include fonty(2em, grey + 20, 100);
+    line-height: 1.2em;
+  }
+}
+
+.skill-1{
+  width: 70%;
+}
+
+.skill-2{
+  width: 70%;
+}
+
+.skill-3{
+  width: 65%;
+}
+
+.skill-4{
+  width: 67%;
+}
+
+.skill-5{
+  width: 40%;
+}
+
+.skill-6{
+  width: 30%;
+}
+
+.skill-7{
+  width: 60%;
+}
+
+.skill-8{
+  width: 50%;
+}
+
+.skill-9{
+  width: 70%;
+}
+
+.toggle-box{
+  &:hover{
+    cursor: pointer;
+  }
+}
