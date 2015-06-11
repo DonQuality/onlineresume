@@ -31,6 +31,11 @@ body {
   line-height: 1;
   font-size: $em-base;
   font-family: $main-font-style;
+  background: url(../images/white-box.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
 }
 ol, ul {
   list-style: none;

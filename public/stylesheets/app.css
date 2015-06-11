@@ -166,7 +166,12 @@ footer, header, hgroup, menu, nav, section {
 body {
   line-height: 1;
   font-size: 62.5%;
-  font-family: "Lato", sans-serif; }
+  font-family: "Lato", sans-serif;
+  background: url(../images/white-box.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed; }
 
 ol, ul {
   list-style: none; }
@@ -569,6 +574,24 @@ hr {
 
 .view-online {
   visibility: hidden; }
+
+.white-box-start {
+  float: left;
+  clear: none;
+  width: 100%;
+  margin-left: 0;
+  margin-right: 3%;
+  height: 100vh;
+  background: url(../images/white-box.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 500; }
+  .white-box-start:last-child {
+    margin-right: 0; }
 
 /*!
 Animate.css - http://daneden.me/animate

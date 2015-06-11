@@ -31,3 +31,15 @@
 .view-online{
   visibility: hidden;
 }
+
+.white-box-start{
+  @include col(4/4);
+  height: 100vh;
+  background: url(../images/white-box.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: fixed;
+  top: 0; left: 0;
+  z-index: 500;
+}
