@@ -1,4 +1,4 @@
-$('main, .show-contact-icon, li, p, h1, h2').velocity("transition.slideUpIn", { stagger: 100});
+$('.show-contact-icon, li, p, h1, h2, img').velocity("transition.slideUpIn", { stagger: 100});
 
 // $('web-icon').on('mouseenter', function(){
 //   $('.view-online').addClass('visible');
